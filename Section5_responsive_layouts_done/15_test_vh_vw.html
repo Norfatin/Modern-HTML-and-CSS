@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewport height & width</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        background: #333333 url('https://source.unsplash.com/daily') no-repeat center center/cover;
+        color: #fff;
+        height: 100vh;
+        /* width: 50vw; */
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        margin: 1rem 0;
+    }
+
+    .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    @media(max-height: 450px) {
+        header {
+            padding-top: 5rem;
+        }
+    }
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to our website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid nobis repellat eveniet perspiciatis excepturi animi aut libero error maiores.</p>
+        <a href="#" class="btn">Find out more</a>
+    </header>
+    <section>
+        <h3>About Our Companay</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ullam magnam animi perspiciatis officia fuga molestias dignissimos, laborum porro non similique minima, mollitia hic necessitatibus quibusdam excepturi maiores consequuntur inventore quae distinctio maxime eum? Ab nemo molestiae ut eaque inventore iure vitae sequi cumque, rerum, commodi odit omnis quos sunt.</p>
+    </section>
+</body>
+</html>
