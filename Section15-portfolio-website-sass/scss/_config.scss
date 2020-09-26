@@ -1,0 +1,24 @@
+$heading-font: "Quicksand", sans-serif;
+$body-font: "Dosis", sans-serif;
+$subtitle-font: "Montserrat", sans-serif;
+$style-font: "Monoton", cursive;
+
+$website-width: 1280px;
+
+$main-color: #cd7f32; //bronze
+$bg-color: #ffffe0; //light yellow
+$light-color: #ffffe0; //light yellow
+$medium-color: #ccccff; //light blue
+$dark-color: #000033; //midnight explorer
+
+$bg-image: url("../img/showcase.jpg");
+$bg-inner-image: url("../img/inner.jpg");
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}
