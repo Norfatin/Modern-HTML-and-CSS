@@ -652,6 +652,9 @@ img {
     height: 6rem;
     font-size: 12px;
   }
+  #main-footer .footer-content .social h4 {
+    font-size: 10px;
+  }
   #main-footer .footer-content .social .fab {
     height: 12px;
     width: 12px;
